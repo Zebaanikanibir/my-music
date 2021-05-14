@@ -1,0 +1,89 @@
+.bar{
+
+    height: 190px;
+    width: 190px;
+    display: inline-block;
+    /* box-shadow: -3px -3px 7px white, 3px 3px 5px white; */
+    position: relative;
+    border-radius: 50%;
+}
+.bar::after{
+
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset -3px -3px 7px rgb(255, 255, 255), inset 3px 3px 5px rgb(255, 255, 255) ;
+
+}
+
+svg{
+width: 100%;
+    fill: none;
+    height: 100%;
+    position: relative;
+}
+
+.circle1{
+
+    position: absolute;
+    stroke: #DD4CAC;
+    transform: scale(.9);
+    transform-origin: center;
+stroke-width: 5px;
+stroke-dasharray: 596px;
+stroke-dashoffset: 596px;
+animation: progress_bar 1s ease-in-out forwards;
+}
+
+@keyframes progress_bar{
+
+    0%{
+
+        stroke-dashoffset:596px ;
+    }
+
+    100%{
+
+        stroke-dashoffset:calc(596px - (596px*90)/100) ;
+    }
+}
+
+.logo{
+
+    color: bisque;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.image1{
+    margin-top: 10px;
+}
+.circle2{
+
+    position: absolute;
+    stroke: #DD4CAC;
+    transform: scale(.9);
+    transform-origin: center;
+stroke-width: 5px;
+stroke-dasharray: 596px;
+stroke-dashoffset: 596px;
+animation: progress_bar2 1s ease-in-out forwards;
+}
+@keyframes progress_bar2{
+
+    0%{
+
+        stroke-dashoffset:596px ;
+    }
+
+    100%{
+
+        stroke-dashoffset:calc(596px - (596px*60)/100) ;
+    }
+}

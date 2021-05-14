@@ -1,0 +1,11 @@
+.header-container{
+    height:100%;
+    width: 100%;
+    position: relative;
+    background-image:linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%) ,url('../../../Images/Rectangle\ 157.png'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }

@@ -1,0 +1,16 @@
+.box{
+
+    border: 1px solid yellow;
+    border-radius: 10px;
+    box-shadow: 10px -10px #5293E8
+    ;
+    margin-bottom: 100px;
+}
+
+.box p,h5{
+    text-align: start;
+    color: white;
+}
+.box h6{
+    color: goldenrod;
+}

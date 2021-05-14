@@ -1,0 +1,38 @@
+.singer{
+    background:#111229 ;
+}
+
+.card1{
+
+    border:none;
+    box-shadow: 10px -10px #301A68;
+    margin-bottom: 100px;
+}
+
+.btnColor{
+    background: #E5C558;
+}
+.nameBtn{
+    text-align: start;
+}
+.nameBtn h4{
+    color: white;
+}
+#listBoard{
+    color: hotpink;
+}
+
+ h2{
+    text-align: start;
+    margin-top: 100px;
+}
+.end{
+    margin-left: auto;
+    margin-right: 80px;
+    color: goldenrod;
+}
+.end1{
+    margin-left: auto;
+    margin-right: 80px;
+    color: white;
+}
