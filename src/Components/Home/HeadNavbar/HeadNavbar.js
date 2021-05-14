@@ -1,6 +1,7 @@
 import React from 'react';
 import {Nav, Navbar, Container, Spinner} from 'react-bootstrap';
 import image from '../../../Images/image 52.png';
+import image1 from '../../../Images/Vector (Stroke).png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch} from '@fortawesome/free-solid-svg-icons'
 const HeadNavbar = () => {
@@ -21,6 +22,7 @@ const HeadNavbar = () => {
                         <a className="nav-a mr-5 ms-5 text-white" href="/">Search</a>
                         <a className="nav-a mr-5 ms-5 text-white" href="/login">Help</a>
                         <a className="nav-a mr-5 ms-5 text-white" href="/dashboard">Account</a>
+                        <a className="nav-a mr-5 ms-5 text-white" href="/dashboard"><img src={image1} alt="" /></a>
                         
                     </Nav>
                 </Navbar.Collapse>

@@ -37,7 +37,7 @@ width: 100%;
 stroke-width: 5px;
 stroke-dasharray: 596px;
 stroke-dashoffset: 596px;
-animation: progress_bar 1s ease-in-out forwards;
+animation: progress_bar 3s ease-in-out forwards;
 }
 
 @keyframes progress_bar{
@@ -73,7 +73,7 @@ animation: progress_bar 1s ease-in-out forwards;
 stroke-width: 5px;
 stroke-dasharray: 596px;
 stroke-dashoffset: 596px;
-animation: progress_bar2 1s ease-in-out forwards;
+animation: progress_bar2 3s ease-in-out forwards;
 }
 @keyframes progress_bar2{
 

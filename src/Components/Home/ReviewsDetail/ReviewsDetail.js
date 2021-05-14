@@ -7,7 +7,7 @@ const ReviewsDetail = (props) => {
         <div className="col-md-4 container">
             <div className="box">
                 <div className="image d-flex">
-                    <img style={{width: '50px'}} src={image} alt="" />
+                    <img style={{width: '55px'}} src={image} alt="" />
                     <div className="name1">
                         <h5>{name}</h5>
                         <div className="d-flex">
